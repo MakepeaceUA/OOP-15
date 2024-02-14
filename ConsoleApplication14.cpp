@@ -222,9 +222,10 @@ ostream& operator<<(ostream& os, const MyString& Str)
 
 int main()
 {
-    MyString obj1 {"Hello"};
-    for (int i = 0; i < 5;i++) 
+    MyString obj1{'H','e','l','l','o'};
+    for (int i = 0; i < 5; i++)
     {
         cout << obj1[i];
     }
 }
+
